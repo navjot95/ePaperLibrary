@@ -7,6 +7,7 @@ Please note this library has only been tested with an ESP-32 running Arduino.
 The orientation of the screen and its origin are as follow
 ![e-paper display](img/screenOrientation.png)
 
+
 ## Hardware connection (e-Paper --> Arduino)
 This configuration can be changed in epdif.cpp
     3.3V/5V --> 3V3
@@ -18,12 +19,7 @@ This configuration can be changed in epdif.cpp
     RST     --> 27
     BUSY    --> 13
 
-#define RST_PIN         27
-#define DC_PIN          33
-#define CS_PIN          14
-#define BUSY_PIN        13
 
-![e-paper display](http://www.waveshare.com/img/devkit/general/e-Paper-Modules-CMP.jpg)
 # Interfaces
 | Name | Description                                                   |
 |------|---------------------------------------------------------------|
