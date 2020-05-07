@@ -10,8 +10,11 @@ The orientation of the screen and its origin are as follow
 
 ## Hardware connection (e-Paper --> Arduino)
 This configuration can be changed in epdif.cpp
+
     3.3V/5V --> 3V3
+
     GND     --> GND
+    
     DIN     --> MO
     CLK     --> SCK
     CS      --> 14
